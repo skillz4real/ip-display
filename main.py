@@ -21,11 +21,11 @@ def get_local_ip():
     return local_ip
 
 
-def display(ext,local):
+def display(msg1, msg2):
     lcd = i2c_lcd.lcd()
     lcd.lcd_clear()
-    lcd.lcd_display_string(f"e:{ext}",1)
-    lcd.lcd_display_string(f"l:{local}",2)
+    lcd.lcd_display_string(f"{msg1}",1)
+    lcd.lcd_display_string(f"{msg2}",2)
 
 if __name__=="__main__":
     external_ip = get_external_ip()
