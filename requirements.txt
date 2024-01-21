@@ -1,0 +1,10 @@
+certifi==2023.11.17
+cffi==1.15.1
+charset-normalizer==3.3.2
+i2c-lcd==0.1.0
+idna==3.6
+pkg-resources==0.0.0
+pycparser==2.21
+requests==2.31.0
+smbus-cffi==0.5.1
+urllib3==2.0.7
