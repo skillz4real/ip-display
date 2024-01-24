@@ -4,7 +4,10 @@ from random import choice
 #lcd displays 16 chars on ea line
 QUOTES = [
         ('Stop looking','4 excuses'),
-        ('aim 4 mastery','dont settle')
+        ('aim 4 mastery','dont settle'),
+        ('consistence >>>','perfection'),
+        ('persistence >>>','perfection'),
+        ('keep showing up!',' ')
         ]
 
 if __name__=="__main__":
