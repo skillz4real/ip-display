@@ -1,0 +1,7 @@
+.gitcreds.txt
+__pycache__/
+bin/
+lib/
+nohup.out
+pyvenv.cfg
+share/
